@@ -1,0 +1,11 @@
+populations \
+  -V ../all.missing_maf_BM.vcf \
+  -M ../pop.txt \
+  -O . \
+  -t 64 \
+  --hwe \
+  --fstats \
+  -k \
+  --smooth-fstats \
+  --smooth-popstats \
+  --sigma 200000
